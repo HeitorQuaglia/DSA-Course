@@ -2,14 +2,15 @@
     "version": "0.2.0",
     "configurations": [
         {
-            "type": "lldb-dap",
+            "type": "cppdbg",
             "request": "launch",
             "name": "Debug Active File",
             "program": "${workspaceFolder}/dist/${fileBasenameNoExtension}",
             "args": [],
-            "env": [],
             "cwd": "${fileDirname}",
-            "preLaunchTask": "C/C++: clang++ build active file"
+            "MIMode": "gdb",
+            "miDebuggerPath": "/usr/bin/gdb",
+            "preLaunchTask": "C/C++: g++ build active file"
         }
     ]
 }

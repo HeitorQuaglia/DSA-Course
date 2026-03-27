@@ -3,22 +3,16 @@
         {
             "name": "Linux",
             "includePath": [
-                "${workspaceFolder}/**",
-                "/usr/include/c++/13",
-                "/usr/include/x86_64-linux-gnu/c++/13",
-                "/home/heitorquaglia/.local/share/swiftly/toolchains/6.2.4/usr/lib/clang/17/include",
-                "/usr/local/include",
-                "/usr/include/x86_64-linux-gnu",
-                "/usr/include"
+                "${workspaceFolder}/**"
             ],
             "defines": [],
-            "compilerPath": "/home/heitorquaglia/.local/share/swiftly/bin/clang++",
+            "compilerPath": "/usr/bin/g++",
             "compilerArgs": [
                 "-std=c++23"
             ],
             "cStandard": "c23",
             "cppStandard": "c++23",
-            "intelliSenseMode": "linux-clang-x64"
+            "intelliSenseMode": "linux-gcc-x64"
         }
     ],
     "version": 4
