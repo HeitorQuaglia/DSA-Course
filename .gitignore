@@ -1,0 +1,6 @@
+# Object files and libraries
+*.[a,o]
+
+# Compiled binaries
+dist/*
+!dist/.gitkeep
